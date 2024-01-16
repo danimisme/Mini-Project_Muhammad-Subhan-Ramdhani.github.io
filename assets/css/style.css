@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.navbar {
+    background-color: #f9fafe;
+    opacity: 0.9;
+}
 
 .nav-link{
     border-bottom: 3px solid transparent;

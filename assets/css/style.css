@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link{
+    border-bottom: 3px solid transparent;
+    transition: ease-in-out 0.3s;
+    position: relative;
+}
+
+.nav-link.active , .nav-link:hover{
+    border-bottom: 3px solid #520c01;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 700px) {
+    .carousel-item img {
+        height: 300px;
+        object-fit: cover;
+    }
+  }

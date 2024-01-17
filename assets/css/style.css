@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.navbar {
+    background-color: #f9fafe;
+    opacity: 0.9;
+}
 
 .nav-link{
     border-bottom: 3px solid transparent;
@@ -18,9 +22,20 @@
     object-fit: cover;
 }
 
+.bg-image {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+footer ul {
+    list-style: none;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
 @media only screen and (max-width: 700px) {
     .carousel-item img {
         height: 300px;
         object-fit: cover;
     }
-  }
+}

@@ -22,6 +22,10 @@
     object-fit: cover;
 }
 
+.carousel-caption{
+    text-shadow: 5px 5px 10px #000000;
+}
+
 .bg-image {
     background-image: url("../images/background.jpg");
     background-size: cover;

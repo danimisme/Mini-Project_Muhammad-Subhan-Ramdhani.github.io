@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../mini-project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "diminum-caffe"
+	}
+}
+

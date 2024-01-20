@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Icon Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Quicksand:wght@500;700&family=Roboto:ital,wght@0,500;1,300;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar sticky-top navbar-expand-lg">
+      <div class="container-lg justify-content-between align-items-start">
+        <a
+          class="navbar-brand fw-semibold d-block d-flex align-items-center fs-2"
+          href="#"
+        >
+          <img
+            src="assets/Logo/logo-bg-white.jpeg"
+            alt="logo"
+            style="height: 45px"
+          />
+          <span class="me-2 fw-bold">iminum </span>Caffe
+        </a>
+
+        <div class="align-items-end text-end">
+          <button
+            class="navbar-toggler my-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav my-2 fs-md-5">
+              <li class="nav-item mx-3">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Beranda</a
+                >
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">Tentang</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link active" href="#">Menu</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link">Hubungi Kami</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="btn btn-outline-dark"
+                  ><i class="bi bi-cart"></i> Order</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End of NavBar -->
+
+    <!-- Header -->
+    <header>
+      <div class="container-fluid my-5">
+        <div class="container">
+          <div
+            class="row d-flex align-items-center flex-column-reverse flex-md-row"
+          >
+            <div class="col-md-6 text-end">
+              <h1 class="fw-bold">Pusing?</h1>
+              <h1 class="fw-bold">Diminum dulu kopinya!</h1>
+              <blockquote class="fs-3">
+                Dibuat dari Biji Kopi Pilihan Biji Kopi Fresh Dipanggang dan
+                Digiling Langsung
+              </blockquote>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="assets/images/line-art.jpeg"
+                alt="diminum caffe"
+                class="img-fluid mx-3"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-lg px-3">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb fs-5">
+            <li class="breadcrumb-item">
+              <a href="index.html" class="link-underline-light">Beranda</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">Menu</li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Card Section -->
+    <div class="container-fluid bg-body-secondary py-1">
+      <div class="container-lg my-5">
+        <h2 class="text-center fw-bold">Yuk Pesan !</h2>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mt-3">
+            <!-- card -->
+            <div
+              class="card border-0 bg-body-secondary mt-3 mx-auto"
+              style="width: 12rem"
+            >
+              <img
+                src="assets/images/minum-di-caffe.jpg"
+                class="rounded-circle img-fluid"
+                alt="minum-di-caffe"
+              />
+              <div class="card-body">
+                <p class="card-text text-center fs-5 fw-semibold">
+                  Minum di Caffe
+                </p>
+              </div>
+            </div>
+            <!-- end of card -->
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-3">
+            <!-- card -->
+            <div
+              class="card border-0 bg-body-secondary mt-3 mx-auto"
+              style="width: 12rem"
+            >
+              <img
+                src="assets/images/take-away.jpg"
+                class="rounded-circle img-fluid"
+                alt="ambil-pesanan"
+              />
+              <div class="card-body">
+                <p class="card-text text-center fs-5 fw-semibold">
+                  Ambil Pesanan
+                </p>
+              </div>
+            </div>
+            <!-- end of card -->
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-3">
+            <!-- card -->
+            <div
+              class="card border-0 bg-body-secondary mt-3 mx-auto"
+              style="width: 12rem"
+            >
+              <img
+                src="assets/images/delivery-order.jpg"
+                class="rounded-circle img-fluid"
+                alt="antar ke alamat"
+              />
+              <div class="card-body">
+                <p class="card-text text-center fs-5 fw-semibold">
+                  Antar Ke Alamat
+                </p>
+              </div>
+            </div>
+            <!-- end of card -->
+
+            <!-- Menu Section 1 -->
+
+            <!-- end of Menu Section 1 -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Card Section -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

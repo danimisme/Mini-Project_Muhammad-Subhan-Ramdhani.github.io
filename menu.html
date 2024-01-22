@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Icon Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Quicksand:wght@500;700&family=Roboto:ital,wght@0,500;1,300;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar sticky-top navbar-expand-lg">
+      <div class="container-lg justify-content-between align-items-start">
+        <a
+          class="navbar-brand fw-semibold d-block d-flex align-items-center fs-2"
+          href="#"
+        >
+          <img
+            src="assets/Logo/logo-bg-white.jpeg"
+            alt="logo"
+            style="height: 45px"
+          />
+          <span class="me-2 fw-bold">iminum </span>Caffe
+        </a>
+
+        <div class="align-items-end text-end">
+          <button
+            class="navbar-toggler my-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav my-2 fs-md-5">
+              <li class="nav-item mx-3">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Beranda</a
+                >
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">Tentang</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link active" href="#">Menu</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link">Hubungi Kami</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="btn btn-outline-dark"
+                  ><i class="bi bi-cart"></i> Order</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End of NavBar -->
+
+    <!-- Header -->
+    <header>
+      <div class="container-fluid my-5">
+        <div class="container">
+          <div
+            class="row d-flex align-items-center flex-column-reverse flex-md-row"
+          >
+            <div class="col-md-6 text-end">
+              <h1 class="fw-bold">Pusing?</h1>
+              <h1 class="fw-bold">Diminum dulu kopinya!</h1>
+              <blockquote class="fs-3">
+                Dibuat dari Biji Kopi Pilihan Biji Kopi Fresh Dipanggang dan
+                Digiling Langsung
+              </blockquote>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="assets/images/line-art.jpeg"
+                alt="diminum caffe"
+                class="img-fluid mx-3"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-lg px-3">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb fs-5">
+            <li class="breadcrumb-item">
+              <a href="index.html" class="link-underline-light">Beranda</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">Menu</li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <!-- End of Header -->
+
+    <main>
+      <!-- Card Section -->
+      <div class="container-fluid bg-body-secondary py-1">
+        <div class="container-lg my-5">
+          <h2 class="text-center fw-bold">Yuk Pesan !</h2>
+          <div class="row justify-content-start">
+            <div class="col-12 col-md-6 col-lg-4 mt-3">
+              <!-- card -->
+              <div
+                class="card border-0 bg-body-secondary mt-3 mx-auto"
+                style="width: 12rem"
+              >
+                <img
+                  src="assets/images/minum-di-caffe.jpg"
+                  class="rounded-circle img-fluid"
+                  alt="minum-di-caffe"
+                />
+                <div class="card-body">
+                  <p class="card-text text-center fs-5 fw-semibold">
+                    Minum di Caffe
+                  </p>
+                </div>
+              </div>
+              <!-- end of card -->
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-3">
+              <!-- card -->
+              <div
+                class="card border-0 bg-body-secondary mt-3 mx-auto"
+                style="width: 12rem"
+              >
+                <img
+                  src="assets/images/take-away.jpg"
+                  class="rounded-circle img-fluid"
+                  alt="ambil-pesanan"
+                />
+                <div class="card-body">
+                  <p class="card-text text-center fs-5 fw-semibold">
+                    Ambil Pesanan
+                  </p>
+                </div>
+              </div>
+              <!-- end of card -->
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-3">
+              <!-- card -->
+              <div
+                class="card border-0 bg-body-secondary mt-3 mx-auto"
+                style="width: 12rem"
+              >
+                <img
+                  src="assets/images/delivery-order.jpg"
+                  class="rounded-circle img-fluid"
+                  alt="antar ke alamat"
+                />
+                <div class="card-body">
+                  <p class="card-text text-center fs-5 fw-semibold">
+                    Antar Ke Alamat
+                  </p>
+                </div>
+              </div>
+              <!-- end of card -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Card Section -->
+
+      <!-- Menu Section 1 -->
+      <div class="container-lg mt-3 mb-5">
+        <h1 class="mb-5">
+          <span class="border-top border-danger border-3">Pesona</span>
+          Espresso
+        </h1>
+        <div class="row justify-content-start">
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/espresso.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Single Shot Espresso</h5>
+                    <p>Rp 25.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/espresso1.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Double Shot Espresso</h5>
+                    <p>Rp 30.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/cortado.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Cortado</h5>
+                    <p>Rp 30.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/americano.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Americano</h5>
+                    <p>Rp 27.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/macchiato.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Macchiato</h5>
+                    <p>Rp 33.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/conpana.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Espresso Con Panna</h5>
+                    <p>Rp 34.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/fredo.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Espresso Freddo</h5>
+                    <p>Rp 34.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+        </div>
+      </div>
+      <!-- end of Menu Section 1 -->
+
+      <!-- Menu Section 2 -->
+      <div class="container-lg mt-3 mb-5">
+        <h1 class="mb-5">
+          <span class="border-top border-danger border-3">Soft</span>
+          Latte
+        </h1>
+        <div class="row justify-content-start">
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/latte.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Latte</h5>
+                    <p>Rp 31.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/vanila-latte.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Vanila Latte</h5>
+                    <p>Rp 33.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/caramel.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Caramel Latte</h5>
+                    <p>Rp 34.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/hazelnut-latte.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Hazelnut Latte</h5>
+                    <p>Rp 36.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/mocha.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Mocha Latte</h5>
+                    <p>Rp 33.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/chocolate.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Chocolate Latte</h5>
+                    <p>Rp 36.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/macha.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Matcha Latte</h5>
+                    <p>Rp 36.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/iced-latte.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Iced Latte</h5>
+                    <p>Rp 35.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/Beetroot.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Beetroot Soy Latte</h5>
+                    <p>Rp 33.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+        </div>
+      </div>
+      <!-- end of Menu Section 2 -->
+
+      <!-- Menu Section 3 -->
+      <div class="container-lg mt-3 mb-5">
+        <h1 class="mb-5">
+          <span class="border-top border-danger border-3">Cita</span> Rasa Donat
+        </h1>
+        <div class="row justify-content-start">
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/donat-coklat.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Donat Coklat</h5>
+                    <p>Rp 15.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/donat-stawberry.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Donat Strawberry</h5>
+                    <p>Rp 15.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/cheese-donuts.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Donat Keju</h5>
+                    <p>Rp 15.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/purple-donust.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Purple Donut</h5>
+                    <p>Rp 15.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/caramell-donuts.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Caramel Donut</h5>
+                    <p>Rp 15.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/red-donut.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Red Velvet Donut</h5>
+                    <p>Rp 15.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/almond-donut.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Choco Almond Donut</h5>
+                    <p>Rp 15.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+          <div class="col-lg-4 col-md-6 col-8 mx-md-0 mx-auto">
+            <!-- card menu-->
+            <div class="card mb-3 border-0" style="max-width: 600px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <img
+                    src="assets/menu-images/matcha-donut.jpg"
+                    class="img-fluid rounded-start menu-image"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-6 px-2 py-1">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between h-100"
+                  >
+                    <h5 class="card-title">Matcha Donut</h5>
+                    <p>Rp 15.000</p>
+                    <a class="btn btn-outline-primary w-70 fs-6"
+                      ><i class="bi bi-plus-circle"></i> Pesan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of card menu -->
+          </div>
+        </div>
+      </div>
+      <!-- end of Menu Section 3 -->
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid bg-dark text-light py-3">
+        <div class="container">
+          <div class="row d-flex">
+            <div class="col-lg-4 justify-content-center">
+              <h4 class="">Hubungi Kami</h4>
+              <ul class="">
+                <li><i class="bi bi-whatsapp"></i> +62897-9761-661</li>
+                <li><i class="bi bi-telephone-fill"></i> 021-623-023-95</li>
+                <li>
+                  <i class="bi bi-envelope-at"></i> dibimbingcaffe@gmail.com
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 justify-content-center">
+              <h4 class="">Outlet</h4>
+              <div class="d-flex">
+                <ul class="me-5">
+                  <li><i class="bi bi-geo-alt-fill"></i> Jakarta</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Bandung</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Surabaya</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Medan</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Surakarta</li>
+                </ul>
+                <ul class="">
+                  <li><i class="bi bi-geo-alt-fill"></i> Yogyakarta</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Depok</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Bogor</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Bekasi</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Tangerang</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 justify-content-center">
+              <h4 class="">Social Media</h4>
+              <ul class="">
+                <li><i class="bi bi-instagram"></i> @DiminumCaffe</li>
+                <li><i class="bi bi-facebook"></i> Diminum Caffe</li>
+              </ul>
+            </div>
+          </div>
+
+          <p class="text-center fw-bold">
+            Copyright &copy; 2024 Diminum Caffe by Muhammad Subhan Ramdhani
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

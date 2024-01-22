@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Icon Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Quicksand:wght@500;700&family=Roboto:ital,wght@0,500;1,300;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar sticky-top navbar-expand-lg">
+      <div class="container-lg justify-content-between align-items-start">
+        <a
+          class="navbar-brand fw-semibold d-block d-flex align-items-center fs-2"
+          href="#"
+        >
+          <img
+            src="assets/Logo/logo-bg-white.jpeg"
+            alt="logo"
+            style="height: 45px"
+          />
+          <span class="me-2 fw-bold">iminum </span>Caffe
+        </a>
+
+        <div class="align-items-end text-end">
+          <button
+            class="navbar-toggler my-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav my-2 fs-md-5">
+              <li class="nav-item mx-3">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Beranda</a
+                >
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="about.html">Tentang</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link active" href="#">Hubungi Kami</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="btn btn-outline-dark"
+                  ><i class="bi bi-cart"></i> Order</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End of NavBar -->
+    <!-- Header -->
+    <header>
+      <div class="container-fluid my-5">
+        <div class="container-lg">
+          <div class="row d-flex align-items-center flex-column flex-lg-row">
+            <div class="col-lg-4 offset-lg-2 col-8">
+              <img
+                src="assets/images/barista-vector.jpg"
+                alt="diminum caffe"
+                class="img-fluid mx-3 rounded-3"
+              />
+            </div>
+            <div class="col-lg-6 text-start">
+              <h1 class="fw-bold mt-3">Kepuasan Anda Adalah Segalanya!</h1>
+              <blockquote class="fs-3 lead">
+                Kami mengutamakan kenyamanan pelanggan. Rasakan pengalaman kopi
+                yang menyenangkan .
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-lg px-3">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb fs-5">
+            <li class="breadcrumb-item">
+              <a href="index.html" class="link-underline-light">Beranda</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Hubungi Kami
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <!-- End of Header -->
+
+    <main>
+      <!-- Content 1 -->
+      <div class="container-fluid py-5">
+        <div class="container-lg mb-5">
+          <div class="row d-flex flex-column-reverse flex-lg-row">
+            <div class="col-lg-5 offset-lg-1 col-12">
+              <h2 class="fw-bold mt-3 mt-lg-0 mb-3">
+                Ada Yang Ingin Anda Sampaikan ?
+              </h2>
+              <p class="lead fs-5 lh-lg">
+                Tulis pesan anda untuk kami, kami akan mendengarkan dengan
+                sepenuh hati. kami menerima segala bentuk saran dan kritik yang
+                diberikan kepada kami. Karena bagi kami kualitas rasa dan
+                kepuasan anda adalah tujuan dan alasan kami ada disini.
+              </p>
+            </div>
+            <div class="col-lg-5 col-8 mx-auto mx-lg-0">
+              <img
+                src="assets/images/barista-customer-crop.jpg"
+                alt="coffe-beans"
+                class="img-fluid rounded"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Content 1 -->
+
+      <!-- Form -->
+      <div class="container-lg my-5">
+        <div class="row">
+          <div class="col-lg-6 col-md-8 col-10 mx-auto">
+            <h1 class="fw-bold text-md-center">Hubungi Kami</h1>
+            <form action="">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Masukkan Nama Kamu "
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Masukkan Email Kamu "
+                />
+              </div>
+              <div class="mb-3">
+                <label for="phoneNumber" class="form-label"
+                  >Nomor Telepon</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  id="phoneNumber"
+                  placeholder="Masukkan Nomor Telepon Kamu "
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Pesan</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Tulis Pesan Kamu ... "
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary px-5">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- End of Form -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid bg-dark text-light py-3">
+        <div class="container">
+          <div class="row d-flex">
+            <div class="col-lg-4 justify-content-center">
+              <h4 class="">Hubungi Kami</h4>
+              <ul class="">
+                <li><i class="bi bi-whatsapp"></i> +62897-9761-661</li>
+                <li><i class="bi bi-telephone-fill"></i> 021-623-023-95</li>
+                <li>
+                  <i class="bi bi-envelope-at"></i> dibimbingcaffe@gmail.com
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 justify-content-center">
+              <h4 class="">Outlet</h4>
+              <div class="d-flex">
+                <ul class="me-5">
+                  <li><i class="bi bi-geo-alt-fill"></i> Jakarta</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Bandung</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Surabaya</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Medan</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Surakarta</li>
+                </ul>
+                <ul class="">
+                  <li><i class="bi bi-geo-alt-fill"></i> Yogyakarta</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Depok</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Bogor</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Bekasi</li>
+                  <li><i class="bi bi-geo-alt-fill"></i> Tangerang</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 justify-content-center">
+              <h4 class="">Social Media</h4>
+              <ul class="">
+                <li><i class="bi bi-instagram"></i> @DiminumCaffe</li>
+                <li><i class="bi bi-facebook"></i> Diminum Caffe</li>
+              </ul>
+            </div>
+          </div>
+
+          <p class="text-center fw-bold">
+            Copyright &copy; 2024 Diminum Caffe by Muhammad Subhan Ramdhani
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

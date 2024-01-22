@@ -35,6 +35,11 @@ body {
     background-size: cover;
 }
 
+.menu-image{
+    aspect-ratio: 1;
+    object-fit: cover;    
+}
+
 footer ul {
     list-style: none;
     list-style-position: inside;

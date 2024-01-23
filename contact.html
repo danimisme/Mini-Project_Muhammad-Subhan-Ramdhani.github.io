@@ -188,7 +188,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-8 col-10 mx-auto">
             <h1 class="fw-bold text-md-center">Hubungi Kami</h1>
-            <form action="">
+            <form id="messageForm">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama</label>
                 <input
@@ -196,6 +196,7 @@
                   class="form-control"
                   id="name"
                   placeholder="Masukkan Nama Kamu "
+                  required
                 />
               </div>
               <div class="mb-3">
@@ -205,6 +206,7 @@
                   class="form-control"
                   id="email"
                   placeholder="Masukkan Email Kamu "
+                  required
                 />
               </div>
               <div class="mb-3">
@@ -227,6 +229,7 @@
                   id="exampleFormControlTextarea1"
                   rows="3"
                   placeholder="Tulis Pesan Kamu ... "
+                  required
                 ></textarea>
               </div>
               <button type="submit" class="btn btn-primary px-5">Kirim</button>
@@ -293,5 +296,18 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const messageForm = document.getElementById("inputMessage");
+        messageForm.addEventListener("submit", function (even) {
+          even.preventDefault();
+          addMessage();
+        });
+      });
+
+      function addMessage() {
+        const name = document.getElementById("name").value;
+      }
+    </script>
   </body>
 </html>

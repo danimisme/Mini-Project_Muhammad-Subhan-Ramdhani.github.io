@@ -29,7 +29,7 @@
     <nav class="navbar sticky-top navbar-expand-lg">
       <div class="container-lg justify-content-between align-items-start">
         <a
-          class="navbar-brand fw-semibold d-block d-flex align-items-center fs-2"
+          class="navbar-brand fw-semibold d-block d-flex align-items-center fs-3"
           href="#"
         >
           <img
@@ -69,7 +69,10 @@
                 <a class="nav-link active" href="#">Hubungi Kami</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="btn btn-outline-dark"
+                <a
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
                   ><i class="bi bi-cart"></i> Order</a
                 >
               </li>
@@ -79,6 +82,42 @@
       </div>
     </nav>
     <!-- End of NavBar -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Maaf <i class="bi bi-emoji-frown fs-3"></i>
+            </h1>
+          </div>
+          <div class="modal-body">
+            <p>
+              Saat ini layanan order online dalam perbaikan. <br />
+              Mohon coba beberapa saat lagi. Terimakasih !
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Modal -->
+
     <!-- Header -->
     <header>
       <div class="container-fluid my-5">
@@ -209,7 +248,7 @@
                 <li><i class="bi bi-whatsapp"></i> +62897-9761-661</li>
                 <li><i class="bi bi-telephone-fill"></i> 021-623-023-95</li>
                 <li>
-                  <i class="bi bi-envelope-at"></i> dibimbingcaffe@gmail.com
+                  <i class="bi bi-envelope-at"></i> diminumcaffe@gmail.com
                 </li>
               </ul>
             </div>

@@ -50,6 +50,7 @@ footer ul {
 .card_title , .card_list_1 , .card_list_2 , .card_list_3, .button_menu ,
 .header_title , .header_caption , .image_content_1 , .title_content_1 , .article_content_1,
 .image_content_2 , .title_content_2 , .article_content_2,
+.image_content_3 , .title_content_3 , .article_content_3,
 .info_list_1 , .info_list_2 , .info_list_3,
 .image_header_1 , .title_header_1 , .caption_header_1 {
     opacity: 0;
@@ -67,6 +68,9 @@ footer ul {
 .article_content_1.animate__animated,
 .image_content_2.animate__animated,
 .title_content_2.animate__animated,
+.image_content_3.animate__animated,
+.title_content_3.animate__animated,
+.article_content_3.animate__animated,
 .article_content_2.animate__animated,
 .info_list_1.animate__animated,
 .info_list_2.animate__animated,

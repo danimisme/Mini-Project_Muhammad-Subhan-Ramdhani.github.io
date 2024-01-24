@@ -72,21 +72,34 @@ $(document).ready(function () {
     function () {
       $(".image_content_2").addClass("animate__animated animate__zoomIn");
     },
-    { offset: "50%" }
+    { offset: "60%" }
   );
 
   $(".title_content_2").waypoint(
     function () {
       $(".title_content_2").addClass("animate__animated animate__fadeInDown");
     },
-    { offset: "50%" }
+    { offset: "60%" }
   );
 
   $(".article_content_2").waypoint(
     function () {
       $(".article_content_2").addClass("animate__animated animate__fadeInUp");
     },
-    { offset: "50%" }
+    { offset: "60%" }
+  );
+  $(".title_content_3").waypoint(
+    function () {
+      $(".title_content_3").addClass("animate__animated animate__fadeInUp");
+    },
+    { offset: "70%" }
+  );
+
+  $(".article_content_3").waypoint(
+    function () {
+      $(".article_content_3").addClass("animate__animated animate__fadeInUp");
+    },
+    { offset: "70%" }
   );
 
   $(".info_list_1").waypoint(

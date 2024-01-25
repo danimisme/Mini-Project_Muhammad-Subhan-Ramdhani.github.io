@@ -18,11 +18,17 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Quicksand:wght@500;700&family=Roboto:ital,wght@0,500;1,300;1,700&display=swap"
       rel="stylesheet"
+    />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
   </head>
   <body>
@@ -156,8 +162,10 @@
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block">
-              <h3>Dibuat dari Biji Kopi Pilihan</h3>
-              <p class="lead">
+              <h3 class="fw-bold header_title">
+                Dibuat dari Biji Kopi Pilihan
+              </h3>
+              <p class="lead header_caption">
                 "Dibuat dengan Teliti dari Biji Kopi Pilihan, Setiap Seruput
                 Menyajikan Keindahan dan Kenikmatan yang Tak Terlupakan."
               </p>
@@ -170,8 +178,8 @@
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block">
-              <h3>Bukan Sekedar Kopi</h3>
-              <p class="lead">
+              <h3 class="fw-bold header_title">Bukan Sekedar Kopi</h3>
+              <p class="lead header_caption">
                 "Ini Pengalaman Kopi yang Luar Biasa. Temukan Keajaiban di
                 Setiap Cangkir."
               </p>
@@ -184,8 +192,8 @@
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block">
-              <h3>Secangkir Semangat</h3>
-              <p class="lead">
+              <h3 class="fw-bold header_title">Secangkir Semangat</h3>
+              <p class="lead header_caption">
                 "Bangkitkan Semangatmu dengan Kopi Terbaik. Sebuah Cangkir,
                 Ribuan Sensasi."
               </p>
@@ -217,14 +225,16 @@
     <header>
       <!-- Card Section -->
       <div class="container-lg mt-lg-5 mb-lg-5 my-3 text-center text-lg-start">
-        <h1 class="mb-3">
+        <h1 class="mb-3 card_title">
           <span class="text-danger">Spesial</span> untuk anda
         </h1>
-        <div class="row lg mt-lg-3 mt-1 justify-content-around">
+        <div
+          class="row lg mt-lg-3 mt-1 justify-content-around card_list_container"
+        >
           <div class="col-lg-4 col-sm-8 col-md-6 col-8 my-3">
             <!-- card -->
             <div
-              class="card align-items-center border-0 mx-auto"
+              class="card align-items-center border-0 mx-auto card_list"
               style="max-width: 300px"
             >
               <div class="row g-0">
@@ -250,7 +260,7 @@
           <div class="col-lg-4 col-sm-8 col-md-6 col-8 my-3">
             <!-- card -->
             <div
-              class="card align-items-center border-0 mx-auto"
+              class="card align-items-center border-0 mx-auto card_list"
               style="max-width: 300px"
             >
               <div class="row g-0">
@@ -276,7 +286,7 @@
           <div class="col-lg-4 col-sm-8 col-md-6 col-8 my-3">
             <!-- card -->
             <div
-              class="card align-items-center border-0 mx-auto"
+              class="card align-items-center border-0 mx-auto card_list"
               style="max-width: 300px"
             >
               <div class="row g-0">
@@ -301,7 +311,7 @@
           </div>
         </div>
         <div class="d-flex justify-content-lg-end justify-content-center">
-          <a href="menu.html" class="btn btn-dark mt-3 fs-5"
+          <a href="menu.html" class="btn btn-dark mt-3 fs-5 button_menu"
             >Lihat Menu <i class="bi bi-arrow-right"></i
           ></a>
         </div>
@@ -318,15 +328,15 @@
               <img
                 src="assets/images/barista-making-coffe-diminum-crop.jpeg"
                 alt="barista-making-coffe-diminum"
-                class="img-fluid rounded"
+                class="img-fluid rounded image_content_1"
               />
             </div>
             <div class="col-lg-5 offset-lg-1 lh-lg my-5">
-              <h1 class="mb-5">
-                <span class="border-top border-danger border-3">Rasa Kopi</span>
+              <h1 class="mb-5 fw-semibold title_content_1">
+                <span class="border-top border-danger border-5">Rasa Kopi</span>
                 yang memukau
               </h1>
-              <p class="lead fs-4">
+              <p class="lead fs-4 article_content_1">
                 "Dengan keahlian yang memukau, sang barista melukis karya seni
                 kopi di setiap gerakan tangan. Aromanya menggoda, sepertinya
                 kafein dan kreativitas menyatu dalam setiap tegukan yang
@@ -344,7 +354,7 @@
           <div class="row d-flex align-items-center">
             <div class="col-lg-6">
               <h1
-                class="fs-1 fw-semibold d-block d-flex align-items-center"
+                class="fs-1 fw-semibold d-block d-flex align-items-center title_content_2"
                 href="#"
               >
                 <img
@@ -354,17 +364,19 @@
                 />
                 <span class="me-2 fw-bold">iminum </span>Caffe
               </h1>
-              <p class="lead fw-semibold">Minum dan rasakan kenikmatannya!</p>
-              <div class="row mt-5 fw-bold">
-                <div class="col-4">
+              <p class="lead fw-semibold article_content_2">
+                Minum dan rasakan kenikmatannya!
+              </p>
+              <div class="row mt-5 fw-bold info_list_container">
+                <div class="col-4 info_list">
                   <h2 class="text-info">25</h2>
                   <p>Variant Menu</p>
                 </div>
-                <div class="col-4">
+                <div class="col-4 info_list">
                   <h2 class="text-info">15</h2>
                   <p>Outlet</p>
                 </div>
-                <div class="col-4">
+                <div class="col-4 info_list">
                   <h2 class="text-info">10</h2>
                   <p>Kota</p>
                 </div>
@@ -374,7 +386,7 @@
               <img
                 src="assets/images/barista-holding-glass-crop.jpeg"
                 alt="barista-holding-glass"
-                class="img-fluid rounded-3"
+                class="img-fluid rounded-3 image_content_2"
               />
             </div>
           </div>
@@ -438,5 +450,20 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Waypoint -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- My JS -->
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

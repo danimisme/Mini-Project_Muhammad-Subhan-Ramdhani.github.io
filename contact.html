@@ -17,11 +17,17 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Quicksand:wght@500;700&family=Roboto:ital,wght@0,500;1,300;1,700&display=swap"
       rel="stylesheet"
+    />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
   </head>
   <body>
@@ -37,7 +43,7 @@
             alt="logo"
             style="height: 45px"
           />
-          <span class="me-2 fw-bold">iminum </span>Caffe
+          <span class="fw-bold me-2">iminum </span>Caffe
         </a>
 
         <div class="align-items-end text-end">
@@ -127,12 +133,14 @@
               <img
                 src="assets/images/barista-vector.jpg"
                 alt="diminum caffe"
-                class="img-fluid mx-3 rounded-3"
+                class="img-fluid mx-3 rounded-3 title_header_1"
               />
             </div>
             <div class="col-lg-6 text-start">
-              <h1 class="fw-bold mt-3">Kepuasan Anda Adalah Segalanya!</h1>
-              <blockquote class="fs-3 lead">
+              <h1 class="fw-bold mt-3 image_header_1">
+                Kepuasan Anda Adalah Segalanya!
+              </h1>
+              <blockquote class="fs-3 lead caption_header_1">
                 Kami mengutamakan kenyamanan pelanggan. Rasakan pengalaman kopi
                 yang menyenangkan .
               </blockquote>
@@ -160,11 +168,11 @@
       <div class="container-fluid py-5">
         <div class="container-lg mb-5">
           <div class="row d-flex flex-column-reverse flex-lg-row">
-            <div class="col-lg-5 offset-lg-1 col-12">
-              <h2 class="fw-bold mt-3 mt-lg-0 mb-3">
+            <div class="col-lg-6 col-12">
+              <h2 class="fw-bold mt-3 mt-lg-0 mb-3 title_content_2">
                 Ada Yang Ingin Anda Sampaikan ?
               </h2>
-              <p class="lead fs-5 lh-lg">
+              <p class="lead fs-5 lh-lg article_content_2">
                 Tulis pesan anda untuk kami, kami akan mendengarkan dengan
                 sepenuh hati. kami menerima segala bentuk saran dan kritik yang
                 diberikan kepada kami. Karena bagi kami kualitas rasa dan
@@ -175,7 +183,7 @@
               <img
                 src="assets/images/barista-customer-crop.jpg"
                 alt="coffe-beans"
-                class="img-fluid rounded"
+                class="img-fluid rounded image_content_2"
               />
             </div>
           </div>
@@ -186,12 +194,12 @@
       <!-- Form -->
       <div class="container-lg my-5">
         <div class="row">
-          <div class="col-lg-6 col-md-8 col-10 mx-auto">
+          <div class="col-lg-6 col-md-8 col-10 mx-auto title_content_3">
             <h1 class="fw-bold text-md-center">Hubungi Kami</h1>
             <!-- Alert -->
             <div id="liveAlertPlaceholder"></div>
             <!-- End of Alert -->
-            <form id="inputMessage">
+            <form id="inputMessage article_content_3">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama</label>
                 <input
@@ -297,6 +305,21 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Waypoint -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- My JS -->
+    <script src="assets/js/script.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const messageForm = document.getElementById("inputMessage");

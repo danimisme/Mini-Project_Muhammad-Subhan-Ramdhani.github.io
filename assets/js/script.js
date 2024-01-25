@@ -19,23 +19,13 @@ $(document).ready(function () {
     { offset: "80%" }
   );
 
-  $(".card_list_1").waypoint(
+  $(".card_list_container").waypoint(
     function () {
-      $(".card_list_1").addClass("animate__animated animate__zoomIn");
-    },
-    { offset: "80%" }
-  );
-
-  $(".card_list_2").waypoint(
-    function () {
-      $(".card_list_2").addClass("animate__animated animate__zoomIn");
-    },
-    { offset: "80%" }
-  );
-
-  $(".card_list_3").waypoint(
-    function () {
-      $(".card_list_3").addClass("animate__animated animate__zoomIn");
+      $(".card_list").each(function (i) {
+        setTimeout(function () {
+          $(".card_list").eq(i).addClass("animate__animated animate__zoomIn");
+        }, 300 * (i + 1));
+      });
     },
     { offset: "80%" }
   );
@@ -72,21 +62,21 @@ $(document).ready(function () {
     function () {
       $(".image_content_2").addClass("animate__animated animate__zoomIn");
     },
-    { offset: "60%" }
+    { offset: "70%" }
   );
 
   $(".title_content_2").waypoint(
     function () {
       $(".title_content_2").addClass("animate__animated animate__fadeInDown");
     },
-    { offset: "60%" }
+    { offset: "70%" }
   );
 
   $(".article_content_2").waypoint(
     function () {
       $(".article_content_2").addClass("animate__animated animate__fadeInUp");
     },
-    { offset: "60%" }
+    { offset: "70%" }
   );
   $(".title_content_3").waypoint(
     function () {
@@ -102,23 +92,28 @@ $(document).ready(function () {
     { offset: "70%" }
   );
 
-  $(".info_list_1").waypoint(
+  $(".card_list_container").waypoint(
     function () {
-      $(".info_list_1").addClass("animate__animated animate__zoomIn");
+      $(".card_list").each(function (i) {
+        setTimeout(function () {
+          $(".card_list").eq(i).addClass("animate__animated animate__zoomIn");
+        }, 300 * (i + 1));
+      });
     },
     { offset: "80%" }
   );
-  $(".info_list_2").waypoint(
+
+  $(".info_list_container").waypoint(
     function () {
-      $(".info_list_2").addClass("animate__animated animate__zoomIn");
+      $(".info_list").each(function (i) {
+        setTimeout(function () {
+          $(".info_list")
+            .eq(i)
+            .addClass("animate__animated animate__fadeInUpBig");
+        }, 300 * (i + 1));
+      });
     },
-    { offset: "80%" }
-  );
-  $(".info_list_3").waypoint(
-    function () {
-      $(".info_list_3").addClass("animate__animated animate__zoomIn");
-    },
-    { offset: "80%" }
+    { offset: "70%" }
   );
 
   $(".image_header_1").waypoint(
@@ -136,9 +131,62 @@ $(document).ready(function () {
   );
   $(".caption_header_1").waypoint(
     function () {
-      $(".caption_header_1").addClass(
-        "animate__animated animate__fadeInBottomLeft"
-      );
+      $(".caption_header_1").addClass("animate__animated animate__fadeInUp");
+    },
+    { offset: "80%" }
+  );
+
+  $(".menu_title_1").waypoint(
+    function () {
+      $(".menu_title_1").addClass("animate__animated animate__fadeInUp");
+    },
+    { offset: "70%" }
+  );
+  $(".menu_title_2").waypoint(
+    function () {
+      $(".menu_title_2").addClass("animate__animated animate__fadeInUp");
+    },
+    { offset: "70%" }
+  );
+  $(".menu_title_3").waypoint(
+    function () {
+      $(".menu_title_3").addClass("animate__animated animate__fadeInUp");
+    },
+    { offset: "70%" }
+  );
+
+  $(".menu_title_1").waypoint(
+    function () {
+      $(".menu_item_1").each(function (i) {
+        setTimeout(function () {
+          $(".menu_item_1")
+            .eq(i)
+            .addClass("animate__animated animate__zoomIn ");
+          console.log(i);
+        }, 300 * (i + 1));
+      });
+    },
+    { offset: "80%" }
+  );
+
+  $(".menu_title_2").waypoint(
+    function () {
+      $(".menu_item_2").each(function (i) {
+        setTimeout(function () {
+          $(".menu_item_2").eq(i).addClass("animate__animated animate__zoomIn");
+        }, 300 * (i + 1));
+      });
+    },
+    { offset: "80%" }
+  );
+
+  $(".menu_title_3").waypoint(
+    function () {
+      $(".menu_item_3").each(function (i) {
+        setTimeout(function () {
+          $(".menu_item_3").eq(i).addClass("animate__animated animate__zoomIn");
+        }, 300 * (i + 1));
+      });
     },
     { offset: "80%" }
   );

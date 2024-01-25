@@ -19,7 +19,7 @@ $(document).ready(function () {
     { offset: "80%" }
   );
 
-  $(".card_list_container").waypoint(
+  $(".article_content_2").waypoint(
     function () {
       $(".card_list").each(function (i) {
         setTimeout(function () {

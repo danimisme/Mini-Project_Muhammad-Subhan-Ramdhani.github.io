@@ -19,6 +19,7 @@ body {
 
 .nav-link.active , .nav-link:hover{
     border-bottom: 3px solid #520c01;
+    font-weight: 600;
 }
 
 

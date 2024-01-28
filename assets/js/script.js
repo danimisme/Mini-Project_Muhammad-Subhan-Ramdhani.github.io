@@ -110,10 +110,10 @@ $(document).ready(function () {
           $(".info_list")
             .eq(i)
             .addClass("animate__animated animate__fadeInUpBig");
-        }, 300 * (i + 1));
+        }, 200 * (i + 1));
       });
     },
-    { offset: "70%" }
+    { offset: "80%" }
   );
 
   $(".image_header_1").waypoint(

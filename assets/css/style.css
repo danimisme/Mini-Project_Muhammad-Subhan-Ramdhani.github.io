@@ -19,6 +19,7 @@ body {
 
 .nav-link.active , .nav-link:hover{
     border-bottom: 3px solid #520c01;
+    font-weight: 600;
 }
 
 
@@ -31,9 +32,18 @@ body {
     text-shadow: 5px 5px 10px #000000;
 }
 
+
 .bg-image {
     background-image: url("../images/background.jpg");
     background-size: cover;
+}
+
+.text-brown {
+    color:#74351c;
+}
+
+.border-brown {
+    border-top: 5px solid #74351c;
 }
 
 .menu-image{

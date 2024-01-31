@@ -1,3 +1,17 @@
+const nav = document.querySelector(".navbar");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY >= 100 && window.scrollY < 500) {
+    nav.classList.add("none");
+  } else if (window.scrollY > 500) {
+    nav.classList.add("navbar-scrolled");
+    nav.classList.remove("none");
+  } else if (window.scrollY < 100) {
+    nav.classList.remove("none");
+    nav.classList.remove("navbar-scrolled");
+  }
+});
+
 $(document).ready(function () {
   $(".header_title").waypoint(
     function () {
